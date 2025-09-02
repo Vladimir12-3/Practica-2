@@ -1,4 +1,4 @@
-package pe.edu.upeu.asistencia;
+package pe.edu.upeu.asistencia.utils;
 
 public class Aplication {
     public static void main(String[] args) {

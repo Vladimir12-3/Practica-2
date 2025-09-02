@@ -4,79 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d75c61-d4d9-49fc-80ae-d19dca6d49d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorParametros/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorParametros/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorParametros/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorParametros/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorParametros/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorParametros/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorParametros/src/main/java/pe/edu/upeu/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorParametros/src/main/java/pe/edu/upeu/modelo/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorParametros/src/main/java/pe/edu/upeu/vistacontrol/IndexProducto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorParametros/src/test/java/pe/edu/upeu/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorVacio/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorVacio/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorVacio/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorVacio/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorVacio/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorVacio/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorVacio/src/main/java/pe/edu/upeu/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorVacio/src/main/java/pe/edu/upeu/modelo/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorVacio/src/main/java/pe/edu/upeu/utils/Lectura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorVacio/src/main/java/pe/edu/upeu/vistacontrol/IndexLibro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_ConstructorVacio/src/test/java/pe/edu/upeu/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Sem02_ClasesObjetosyEncapsulamiento/src/main/java/pe/edu/upeu/modelo/Municipalidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Sem02_ClasesObjetosyEncapsulamiento/src/main/java/pe/edu/upeu/modelo/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Sem02_ClasesObjetosyEncapsulamiento/src/main/java/pe/edu/upeu/utils/Lectura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Sem02_ClasesObjetosyEncapsulamiento/src/main/java/pe/edu/upeu/vistacontrol/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Sem02_ClasesObjetosyEncapsulamiento/src/main/java/pe/edu/upeu/vistacontrol/IndexMunicipalidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/src/main/java/pe/edu/upeu/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/src/main/java/pe/edu/upeu/modelo/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/src/main/java/pe/edu/upeu/modelo/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/src/main/java/pe/edu/upeu/modelo/Trabajador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/src/main/java/pe/edu/upeu/utils/Lectura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/src/main/java/pe/edu/upeu/utils/Utilitarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/src/main/java/pe/edu/upeu/vistacontrol/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/src/main/java/pe/edu/upeu/vistacontrol/IndexEstudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/src/main/java/pe/edu/upeu/vistacontrol/IndexPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/src/main/java/pe/edu/upeu/vistacontrol/IndexTrabajador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_ArrayListObjetosconHerencia_y_Submenu/src/test/java/pe/edu/upeu/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Constructores/src/main/java/pe/edu/upeu/vistacontrol/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Herencia/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Herencia/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Herencia/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Herencia/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Herencia/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Herencia/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Herencia/src/main/java/pe/edu/upeu/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Herencia/src/main/java/pe/edu/upeu/modelo/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Herencia/src/main/java/pe/edu/upeu/modelo/Trabajador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Herencia/src/main/java/pe/edu/upeu/vistacontrol/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POO_Semana03_Herencia/src/test/java/pe/edu/upeu/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/src/main/java/pe/edu/upeu/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/src/main/java/pe/edu/upeu/modelo/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/src/main/java/pe/edu/upeu/modelo/Trabajador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/src/main/java/pe/edu/upeu/utils/Lectura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/src/main/java/pe/edu/upeu/utils/Utilitarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/src/main/java/pe/edu/upeu/vistacontrol/Index.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/src/main/java/pe/edu/upeu/vistacontrol/IndexPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/src/main/java/pe/edu/upeu/vistacontrol/IndexTrabajador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Semana03_ArrayListObjetosconHerencia/src/test/java/pe/edu/upeu/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="65d75c61-d4d9-49fc-80ae-d19dca6d49d1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -111,7 +39,8 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main"
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/Practica 2/Practica-2/Aprendizaje autónomo a partir del ítem 2.2/POO_Sem02_ClasesObjetosyEncapsulamiento"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -119,7 +48,7 @@
       <recent name="pe.edu.upeu.vistacontrol" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IndexMunicipalidad">
+  <component name="RunManager" selected="Application.Index">
     <configuration name="Index" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pe.edu.upeu.vistacontrol.Index" />
       <module name="POO_Sem02_ClasesObjetosyEncapsulamiento." />
@@ -148,8 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IndexMunicipalidad" />
         <item itemvalue="Application.Index" />
+        <item itemvalue="Application.IndexMunicipalidad" />
       </list>
     </recent_temporary>
   </component>
