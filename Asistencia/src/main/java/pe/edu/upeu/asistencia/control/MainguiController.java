@@ -40,7 +40,7 @@ public class MainguiController {
                             "menuItem1",new String[]{"/fxml/main_participante.fxml","Participantes","T"},
                             "menuItem2",new String[]{"/fxml/login.fxml","Salir","C"},
                             "menuItem3",new String[]{"/fxml/main_asistencia.fxml","Asistencia","T"},
-                            "menuItem4",new String[]{"/fxml/main_asistencia.fxml","Asistencia","T"}
+                            "menuItem4",new String[]{"/fxml/main_asistencia.fxml","Asistencia","4"}
                                 );
 
         public void handle(ActionEvent e) {

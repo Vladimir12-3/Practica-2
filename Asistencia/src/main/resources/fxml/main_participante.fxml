@@ -24,7 +24,7 @@
                <children>
                   <HBox layoutX="59.0" layoutY="32.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
                      <children>
-                        <GridPane>
+                        <GridPane prefHeight="225.0" prefWidth="400.0">
                           <columnConstraints>
                             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -42,9 +42,9 @@
                               <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="17.0" text="Formulario" GridPane.columnSpan="2147483647">
+                              <Label alignment="CENTER" maxWidth="1.7976931348623157E308" prefHeight="17.0" text="FORMULARIO" textFill="#d32717" GridPane.columnSpan="2147483647">
                                  <font>
-                                    <Font name="System Bold" size="14.0" />
+                                    <Font name="System Bold Italic" size="14.0" />
                                  </font>
                               </Label>
                               <Label text="DNI:" GridPane.rowIndex="1" />
@@ -79,7 +79,7 @@
                         </GridPane>
                         <AnchorPane>
                            <children>
-                              <TableView layoutX="14.0" layoutY="16.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                              <TableView layoutX="14.0" layoutY="16.0" prefWidth="248.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
                                 <columns>
                                   <TableColumn prefWidth="75.0" text="C1" />
                                   <TableColumn prefWidth="75.0" text="C2" />
