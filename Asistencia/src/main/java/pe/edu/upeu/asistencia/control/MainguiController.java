@@ -30,7 +30,7 @@ public class MainguiController{
     private TabPane tabPane;
 
     @Autowired
-    private ApplicationContext Context;
+    private ApplicationContext contex;
 
     @FXML
     public void initialize() {
@@ -73,7 +73,7 @@ public class MainguiController{
 
 
                 FXMLLoader loader = new FXMLLoader(getClass().getResource(filename));
-                loader.setControllerFactory(Context::getBean);
+                loader.setControllerFactory(contex::getBean);
                 Parent root = loader.load();
 
 
