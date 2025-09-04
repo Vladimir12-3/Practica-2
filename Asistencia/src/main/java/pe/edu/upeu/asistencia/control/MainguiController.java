@@ -26,15 +26,7 @@ public class MainguiController {
     @FXML
     private TabPane tabPane;
     @Autowired
-<<<<<<< HEAD
-<<<<<<< HEAD
     private ApplicationContext context;
-=======
-=======
->>>>>>> 571ebc7 (yyyyy)
-    private ApplicationContext contex;
-
->>>>>>> 571ebc7796919db55b6871d400835867e7addbbe
     @FXML
     public void initialize() {
         MenuItemListener miL=new MenuItemListener();
@@ -64,30 +56,11 @@ public class MainguiController {
             }
         }
 
-<<<<<<< HEAD
         public void abrirArchivoFXML(String filename, String tittle){
             try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource(filename));
             loader.setControllerFactory(context::getBean);
             Parent root = loader.load();
-=======
-        public void abrilArchivoFXML(String filename, String tittle) {
-            try{
-
-
-                FXMLLoader loader = new FXMLLoader(getClass().getResource(filename));
-                loader.setControllerFactory(contex::getBean);
-                Parent root = loader.load();
-
-
-
-                ScrollPane scrollPane = new ScrollPane(root);
-                scrollPane.setFitToWidth(true);
-                scrollPane.setFitToHeight(true);
-                Tab newTab = new Tab(tittle, scrollPane);
-                tabPane.getTabs().clear();
-                tabPane.getTabs().add(newTab);
->>>>>>> 571ebc7796919db55b6871d400835867e7addbbe
 
             ScrollPane scrollPane = new ScrollPane(root);
             scrollPane.setFitToWidth(true);
