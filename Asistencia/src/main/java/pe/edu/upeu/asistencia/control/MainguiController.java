@@ -27,8 +27,11 @@ public class MainguiController {
     private TabPane tabPane;
     @Autowired
 <<<<<<< HEAD
+<<<<<<< HEAD
     private ApplicationContext context;
 =======
+=======
+>>>>>>> 571ebc7 (yyyyy)
     private ApplicationContext contex;
 
 >>>>>>> 571ebc7796919db55b6871d400835867e7addbbe

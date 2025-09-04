@@ -6,6 +6,7 @@
 <?import javafx.scene.text.*?>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <AnchorPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.asistencia.control.ParticipanteController">
    <children>
       <VBox layoutX="75.0" layoutY="8.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
@@ -25,6 +26,8 @@
                <children>
                   <HBox layoutX="59.0" layoutY="32.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
 =======
+=======
+>>>>>>> 571ebc7 (yyyyy)
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pe.edu.upeu.asistencia.control.ParticipanteController">
    <children>
       <VBox layoutX="88.0" layoutY="23.0" prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
@@ -39,7 +42,10 @@
             <AnchorPane prefHeight="200.0" prefWidth="200.0">
                <children>
                   <HBox layoutX="72.0" layoutY="34.0" AnchorPane.bottomAnchor="-39.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+<<<<<<< HEAD
 >>>>>>> 571ebc7796919db55b6871d400835867e7addbbe
+=======
+>>>>>>> 571ebc7 (yyyyy)
                      <children>
                         <GridPane>
                           <columnConstraints>
@@ -47,6 +53,7 @@
                             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+<<<<<<< HEAD
 <<<<<<< HEAD
                           </columnConstraints>
                           <rowConstraints>
@@ -99,6 +106,8 @@
                            <children>
                               <TableView layoutX="14.0" layoutY="16.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
 =======
+=======
+>>>>>>> 571ebc7 (yyyyy)
                               <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                           </columnConstraints>
                           <rowConstraints>
@@ -146,18 +155,26 @@
                         <AnchorPane>
                            <children>
                               <TableView layoutY="17.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+<<<<<<< HEAD
 >>>>>>> 571ebc7796919db55b6871d400835867e7addbbe
+=======
+>>>>>>> 571ebc7 (yyyyy)
                                 <columns>
                                   <TableColumn prefWidth="75.0" text="C1" />
                                   <TableColumn prefWidth="75.0" text="C2" />
                                 </columns>
                               </TableView>
 <<<<<<< HEAD
+<<<<<<< HEAD
                            </children></AnchorPane>
 =======
                            </children>
                         </AnchorPane>
 >>>>>>> 571ebc7796919db55b6871d400835867e7addbbe
+=======
+                           </children>
+                        </AnchorPane>
+>>>>>>> 571ebc7 (yyyyy)
                      </children>
                   </HBox>
                </children>
