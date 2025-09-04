@@ -3,9 +3,10 @@ package pe.edu.upeu.asistencia.control;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 
-@Controller
+@Component
 public class AsistenciaController {
 
     @FXML TextField txtNum1, txtNum2;
