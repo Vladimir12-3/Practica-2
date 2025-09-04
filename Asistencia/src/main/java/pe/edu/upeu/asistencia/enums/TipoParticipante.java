@@ -1,6 +1,5 @@
 package pe.edu.upeu.asistencia.enums;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -2,12 +2,11 @@ package pe.edu.upeu.asistencia.control;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import pe.edu.upeu.asistencia.enums.Carrera;
 import pe.edu.upeu.asistencia.enums.TipoParticipante;
 
-@Component
+@Controller
 public class ParticipanteController {
 
     @FXML
@@ -17,10 +16,9 @@ public class ParticipanteController {
     private ComboBox<TipoParticipante> cbxTipoParticipante;
 
     @FXML
-    public void initialize(){
+    public void initialize() {
         cbxCarrera.getItems().setAll(Carrera.values());
         cbxTipoParticipante.getItems().setAll(TipoParticipante.values());
     }
-
 
 }

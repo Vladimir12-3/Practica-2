@@ -20,5 +20,3 @@ public enum Carrera {
     private Facultad facultad;
     private String descripcion;
 }
-
-
