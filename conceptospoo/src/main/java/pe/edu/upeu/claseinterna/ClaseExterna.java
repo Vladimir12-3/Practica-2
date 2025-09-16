@@ -3,24 +3,21 @@ package pe.edu.upeu.claseinterna;
 
 
 public class ClaseExterna {
-    int a,b;
+    int a, b;
 
     class ClaseInterna1 {
         double r;
-        double sumar() {
-            ;
-            r = a + b;
-            return r;
+        double sumar(){
+            r=a+b;
+            return  r;
         }
-
     }
 
     class ClaseInterna2 {
         double r;
-        double resta() {
-            ;
-            r = a - b;
-            return r;
+        double resta(){
+            r=a-b;
+            return  r;
         }
     }
 
@@ -34,10 +31,10 @@ public class ClaseExterna {
         ClaseInterna2 ci2=c.new ClaseInterna2();
         ci2.resta();
         System.out.println(ci2.r);
-
     }
 }
 
 class ClaseExterna3 {
 
 }
+

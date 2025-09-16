@@ -1,20 +1,20 @@
-package pe.edu.upeu.encapsulamiento;
+package pe.edu.upeu.encapsulamientox;
 
 public class Persona {
-    private  String nombre;
-    protected String apellido;
-    private int edad;
+   private String nombre;
+   protected String apellido;
+   private int edad;
 
-    Persona(){ }
-    Persona(String nombre, String apellido, int edad){
-        this.nombre=nombre;
-        this.apellido=apellido;
-        this.edad=edad;
-
+   Persona() {}
+   Persona(String nombre, String apellido, int edad) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
     }
 
+
     void saludo(){
-        System.out.println("Hola mi nombre es "+getNombre()+" y mi edad es "+edad);
+        System.out.println("Hola, mi nombre es "+getNombre()+" y mi edad es "+edad);
     }
 
     public String getNombre() {
