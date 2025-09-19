@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pe.edu.upeu.asistencia.control.MainguiController"
+            prefWidth="900" prefHeight="600">
+
+
+    <top>
+        <MenuBar>
+            <menus>
+                <Menu text="Archivo">
+                    <items>
+                        <MenuItem text="Clientes" onAction="#abrirClientes"/>
+                        <SeparatorMenuItem/>
+                        <MenuItem text="Salir" onAction="#cerrarAplicacion"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </top>
+
+
+    <center>
+        <BorderPane fx:id="bp">
+            <padding>
+                <Insets top="15" right="15" bottom="15" left="15"/>
+            </padding>
+            <center>
+                <Label text="VENTA DE ZAPATILLAS"
+                       style="-fx-font-size: 20px; -fx-font-weight: bold;"/>
+            </center>
+        </BorderPane>
+    </center>
+
+
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" spacing="10">
+            <padding>
+                <Insets top="5" right="10" bottom="5" left="10"/>
+            </padding>
+            <Label text="Desarrollado por: UPeU"/>
+        </HBox>
+    </bottom>
+</BorderPane>

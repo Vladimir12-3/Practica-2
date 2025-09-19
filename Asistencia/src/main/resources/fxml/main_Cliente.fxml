@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pe.edu.upeu.asistencia.control.ClienteController"
+            prefWidth="900" prefHeight="500">
+
+
+    <top>
+        <Label text="PEDIDO DE ZAPATILLAS"
+               style="-fx-font-size: 22px; -fx-font-weight: bold; -fx-padding: 10;"/>
+    </top>
+
+
+    <center>
+        <VBox spacing="15" alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <!-- FORMULARIO -->
+            <GridPane hgap="10" vgap="10">
+                <padding>
+                    <Insets top="10" right="10" bottom="10" left="10"/>
+                </padding>
+
+                <columnConstraints>
+                    <ColumnConstraints halignment="RIGHT"/>
+                    <ColumnConstraints hgrow="ALWAYS"/>
+                </columnConstraints>
+
+                <Label text="DNI:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                <TextField fx:id="txtDNI" GridPane.rowIndex="0" GridPane.columnIndex="1" prefWidth="200"/>
+
+                <Label text="Nombre:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+                <TextField fx:id="txtNombres" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+                <Label text="Apellido:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+                <TextField fx:id="txtApellidos" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+                <Label text="Teléfono:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+                <TextField fx:id="txtTelefono" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+                <Label text="Email:" GridPane.rowIndex="4" GridPane.columnIndex="0"/>
+                <TextField fx:id="txtEmail" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+
+                <Label text="Tipo de Zapatilla:" GridPane.rowIndex="5" GridPane.columnIndex="0"/>
+                <ComboBox fx:id="cbxTipoZapatilla" GridPane.rowIndex="5" GridPane.columnIndex="1" prefWidth="200"/>
+
+
+                <Button text="Guardar"
+                        onAction="#crearCliente"
+                        GridPane.rowIndex="6" GridPane.columnIndex="1"
+                        style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-font-weight: bold;"/>
+            </GridPane>
+
+
+            <TableView fx:id="tableView" prefHeight="350" prefWidth="850" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="dniCol" text="DNI" prefWidth="100"/>
+                    <TableColumn fx:id="nombresCol" text="Nombre" prefWidth="150"/>
+                    <TableColumn fx:id="apellidosCol" text="Apellido" prefWidth="150"/>
+                    <TableColumn fx:id="telefonoCol" text="Teléfono" prefWidth="120"/>
+                    <TableColumn fx:id="emailCol" text="Email" prefWidth="200"/>
+                    <TableColumn fx:id="tipoCol" text="Tipo Zapatilla" prefWidth="120"/>
+                </columns>
+            </TableView>
+        </VBox>
+    </center>
+</BorderPane>
