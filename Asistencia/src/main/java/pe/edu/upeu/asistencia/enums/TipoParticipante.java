@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Getter
 public enum TipoParticipante {
-    ASISTENTE("Asistente"),
+    ASISTENCIA("Asistencia"),
     ORGANIZADOR("Organizador"),
     PONENTE("Ponente"),;
 

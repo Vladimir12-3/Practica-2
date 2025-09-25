@@ -62,7 +62,7 @@ public class ParticipanteController {
                             editarParticipante(participante, getIndex());
                         });
                         btnEliminar.setOnAction((event) -> {
-                            eliminarParticipante(getIndex());
+                            eliminarParticipante(participante, getDni().get.name);
                         });
                     }
                 @Override
@@ -131,8 +131,8 @@ public class ParticipanteController {
 
 
 
-    public void eliminarParticipante(int index){
-        ps.delete(index);
+    public void eliminarParticipante(String dni){
+        ps.delete(dni);
         listarParticipantes();
     }
 }
