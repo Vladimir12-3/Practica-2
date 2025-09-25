@@ -54,19 +54,19 @@ public class ParticipanteController {
     public void agregarAccionBotones(){
         Callback<TableColumn<Participante, Void>, TableCell<Participante, Void>> cellFactory =
                 param-> new  TableCell<>() {
-                Button btnEditar = new Button("Editar");
-                Button btnEliminar = new Button("Eliminar");
+                    Button btnEditar = new Button("Editar");
+                    Button btnEliminar = new Button("Eliminar");
                     {
                         btnEditar.setOnAction((event) -> {
                             Participante participante =  getTableView().getItems().get(getIndex());
                             editarParticipante(participante, getIndex());
                         });
                         btnEliminar.setOnAction((event) -> {
-                            eliminarParticipante(participante, getDni().get.name);
+                            eliminarParticipante(getIndex());
                         });
                     }
-                @Override
-                protected void updateItem(Void item, boolean empty){
+                    @Override
+                    protected void updateItem(Void item, boolean empty){
                         super.updateItem(item, empty);
                         if(empty){
                             setGraphic(null);
@@ -75,7 +75,7 @@ public class ParticipanteController {
                             hBox.setSpacing(10);
                             setGraphic(hBox);
                         }
-                }
+                    }
                 };
         opcionCol.setCellFactory(cellFactory);
     }
@@ -131,8 +131,8 @@ public class ParticipanteController {
 
 
 
-    public void eliminarParticipante(String dni){
-        ps.delete(dni);
+    public void eliminarParticipante(int index){
+        ps.delete(index);
         listarParticipantes();
     }
 }
